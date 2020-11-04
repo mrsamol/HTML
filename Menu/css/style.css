@@ -1,0 +1,57 @@
+html,body{
+	color: #333;
+	font-size: 14px;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.header-area{
+	background:blue;
+}
+.container{
+	width: 1024px;
+	margin: 0  auto;
+	display: block;
+}
+.container:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.site-logo{
+	display: block;
+	float: left;
+	padding-top: 10px;
+}
+
+.site-logo h1 a{
+	color: #fff;
+	text-decoration: none;
+}
+.site-logo h1 a:hover{
+	opacity: 0.7;
+}
+
+.site-menu{
+	float: right;
+	display: block;
+}
+.site-menu ul{
+	display: flex;
+	list-style-type: none;
+}
+.site-menu ul li{
+	display: inline-block;
+}
+.site-menu ul li a{
+	display: block;
+	padding: 15px 15px;
+	text-decoration: none;
+	color: #fff;
+
+}
+.site-menu ul li a:hover{
+	opacity: 0.7;
+}
